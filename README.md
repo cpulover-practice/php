@@ -4,3 +4,9 @@
 - Array
   - ```print_r($array)```
   - ```unset($array[<key>])```: remove element
+- Database 
+  - Use ``` ` ``` for column name in the query
+  - Tip: always put limit with update query to avoid update all records by accidents
+  - Tip: use ```mysqli_real_escape($link, $var)``` when insert variable into query to prevent SQL injection String.
+- Session 
+  - Start session for every page to maintain the session
